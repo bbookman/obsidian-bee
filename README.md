@@ -1,6 +1,8 @@
 # Limitless Lifelogs for Obsidian
 
-This plugin allows you to download and sync your Limitless AI lifelog entries into Obsidian markdown files.
+![Limitless Lifelogs](https://github.com/Maclean-D/obsidian-limitless-lifelogs/raw/main/limitless-lifelogs.png)
+
+Sync your Limitless AI lifelog entries directly into Obsidian markdown files.
 
 ## Features
 
@@ -10,15 +12,15 @@ This plugin allows you to download and sync your Limitless AI lifelog entries in
 - Preserves original markdown formatting and structure
 - Supports incremental syncing (only fetches new or updated entries)
 
+## Prerequisites
+
+- [Obsidian](https://obsidian.md/) installed
+- A Limitless AI account with API access
+- An active internet connection
+
 ## Installation
 
-1. Open Obsidian Settings
-2. Go to Community Plugins and disable Safe Mode
-3. Click Browse and search for "Limitless Lifelogs"
-4. Install the plugin
-5. Enable the plugin in your Community Plugins list
-
-## Manual Installation
+### Manual Installation
 
 1. Download the latest release from the releases page
 2. Extract the zip file into your vault's `.obsidian/plugins` folder
@@ -59,13 +61,33 @@ Each lifelog entry is saved in a markdown file named with the date format `YYYY-
 - Messages with timestamps and speaker names
 - Original markdown formatting
 
-## Support
+## FAQ
 
-If you encounter any issues or have suggestions, please:
+### How do I get my Limitless AI API key?
 
-1. Check the [GitHub Issues](https://github.com/yourusername/obsidian-limitless-lifelogs/issues) page
-2. Create a new issue if your problem hasn't been reported
+1. Log in to your Limitless AI account
+2. Navigate to Settings > API
+3. Generate a new API key
 
-## License
+### What happens if I sync multiple times?
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+The plugin uses incremental syncing, so it will only fetch new or updated entries since your last sync.
+
+## Troubleshooting
+
+If you encounter any issues:
+
+1. Verify your API key is correct
+2. Check your internet connection
+3. Ensure you have write permissions in your chosen folder
+4. Try restarting Obsidian
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Maclean-D/obsidian-limitless-lifelogs&type=Date)](https://star-history.com/#Maclean-D/obsidian-limitless-lifelogs&Date)
+
+## Contributors
+
+<a href="https://github.com/Maclean-D/obsidian-limitless-lifelogs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Maclean-D/obsidian-limitless-lifelogs" />
+</a>
