@@ -12,12 +12,6 @@ Sync your Limitless AI lifelog entries directly into Obsidian markdown files.
 - Preserves original markdown formatting and structure
 - Supports incremental syncing (only fetches new or updated entries)
 
-## Prerequisites
-
-- [Obsidian](https://obsidian.md/) installed
-- A Limitless AI account with API access
-- An active internet connection
-
 ## Installation
 
 ### Manual Installation
