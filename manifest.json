@@ -1,10 +1,10 @@
 {
 	"id": "limitless-lifelogs",
 	"name": "Limitless Lifelogs",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Download and sync your Limitless AI lifelog entries into Obsidian markdown files.",
-	"author": "Your Name",
-	"authorUrl": "https://github.com/yourusername",
+	"author": "Maclean Dunstan",
+	"authorUrl": "https://github.com/Maclean-D",
 	"isDesktopOnly": false
 }
