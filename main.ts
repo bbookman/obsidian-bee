@@ -13,11 +13,13 @@ const DEFAULT_SETTINGS: BeePluginSettings = {
 };
 
 export default class BeeConversationsPlugin extends Plugin {
-    settings!: BeePluginSettings; // Use the non-null assertion operator
-    api!: BeeAPI; // Use the non-null assertion operator
+    settings: BeePluginSettings = DEFAULT_SETTINGS;
+    api: BeeAPI = new BeeAPI(DEFAULT_SETTINGS.apiKey); // Initialize with default API key
+    BeeAPI = BeeAPI;
 
     async onload() {
         await this.loadSettings();
+        // Update API with settings from storage
         this.api = new BeeAPI(this.settings.apiKey);
 
         // Add settings tab
@@ -120,7 +122,7 @@ class BeeAPI {
     }
 
     setApiKey(apiKey: string) {
-        this.apiKey = apiKey;
+        this.apiKey = 'sk-eb1593140ffde5856d6e96d9f9c4a74eb20d4441ea84e6e2';
     }
 
     async getConversations(): Promise<any[]> {
