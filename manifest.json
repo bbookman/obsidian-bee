@@ -1,6 +1,6 @@
 {
 	"id": "bee_computer_daily",
-	"name": "Bee.computer to Obsidian",
+	"name": "Bee to Obsidian",
 	"version": "1.0.0",
 	"minAppVersion": "0.1.0",
 	"description": "Sync your Bee data to Obsidian",
