@@ -2,17 +2,7 @@ import { App, Plugin, PluginSettingTab, Setting, normalizePath, Notice, requestU
 
 // Remember to rename these classes and interfaces!
 
-interface LimitlessLifelogsSettings {
-	apiKey: string;
-	folderPath: string;
-	startDate: string;
-}
 
-const DEFAULT_SETTINGS: LimitlessLifelogsSettings = {
-	apiKey: '',
-	folderPath: 'Limitless Lifelogs',
-	startDate: '2025-02-09'
-}
 
 interface BeePluginSettings {
     apiKey: string;
