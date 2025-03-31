@@ -1,8 +1,8 @@
 {
 	"id": "bee_computer_daily",
 	"name": "Bee to Obsidian",
-	"version": "1.0.0",
-	"minAppVersion": "0.1.0",
+	"version": "1.8.9",
+	"minAppVersion": "1.8.9",
 	"description": "Sync your Bee data to Obsidian",
 	"author": "Bruce Bookman",
 	"authorUrl": "https://github.com/bbookman",
