@@ -13,8 +13,8 @@ const DEFAULT_SETTINGS: BeePluginSettings = {
 };
 
 export default class BeeConversationsPlugin extends Plugin {
-    settings: BeePluginSettings;
-    api: BeeAPI;
+    settings!: BeePluginSettings; // Use the non-null assertion operator
+    api!: BeeAPI; // Use the non-null assertion operator
 
     async onload() {
         await this.loadSettings();
@@ -111,6 +111,8 @@ ${conversation.primary_location?.address || 'Unknown'}
 
 class BeeAPI {
     private apiKey: string;
+
+
     private baseUrl = 'https://api.bee.computer/v1/me';
 
     constructor(apiKey: string) {
